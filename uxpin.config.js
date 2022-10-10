@@ -5,7 +5,7 @@ module.exports = {
         name: "General",
         include: [
           "src/components/Button/Button.tsx",
-          "src/components/HchAppBar/HchAppBar",
+          "src/components/HchAppBar/HchAppBar.tsx",
         ],
       },
     ],
