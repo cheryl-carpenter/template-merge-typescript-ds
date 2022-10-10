@@ -2,14 +2,15 @@ module.exports = {
   components: {
     categories: [
       {
-        name: 'General',
+        name: "General",
         include: [
-          'src/components/Button/Button.tsx',
+          "src/components/Button/Button.tsx",
+          "src/components/HchAppBar/HchAppBar",
         ],
       },
     ],
-    wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',
-    webpackConfig: 'uxpin.webpack.config.js',
+    wrapper: "src/components/UXPinWrapper/UXPinWrapper.js",
+    webpackConfig: "uxpin.webpack.config.js",
   },
-  name: 'TypeScript Design System'
+  name: "TypeScript Design System",
 };
